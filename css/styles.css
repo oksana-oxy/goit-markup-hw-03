@@ -1,0 +1,155 @@
+:root {
+    --accent-color: #4D5AE5;
+    --primary-color:#2E2F42;
+    --secondary-text-color: #434455;
+    --button-aktive-color:#404BBF;
+    --footer-text-color: #E7E9FC;
+    --background-color: #F4F4FD;
+    --title-text-color: #FFFFFF;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--secondary-text-color);
+}
+
+/*------Header-------- */
+.link-logo {
+    font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--accent-color);
+}
+.logo {
+    color: var(--primary-color);
+}
+.list {
+    list-style-type: none;
+}
+.link {
+    text-decoration: none;
+}
+.nav {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--primary-color);
+}
+.address {
+    font-family: inherit;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--secondary-text-color);
+}
+.nav:is(:hover, :focus, :active),
+.address:is(:hover, :focus, :active) {
+    color: var(--button-aktive-color);
+}
+
+/* ------Hero--------- */
+.hero {
+    background-color: var(--primary-color);
+}
+.title {
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: var(--title-text-color);
+        
+
+} 
+.button-hero {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+        color:var(--title-text-color);
+        background-color: var(--accent-color);
+        cursor: pointer;
+}
+.button-hero:hover {
+    background-color: var(--button-aktive-color);
+}
+/* -------Our benefits------- */
+.title-item {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--primary-color);
+}
+.text {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+    .section-name {
+        font-weight: 700;
+            font-size: 36px;
+            line-height: 1.11;
+            text-align: center;
+            letter-spacing: 0.02em;
+            text-transform: capitalize;
+            color: var(--primary-color);
+    }
+    /* ------Footer------ */
+    .footer {
+        background-color: var(--primary-color);
+    }
+    .logo-footer{
+        color: var(--background-color);
+    }
+    .text-footer {
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: var(--footer-text-color);
+    }
+
+
+    /******Portfolio******/
+    .filtres-button {
+        font-family: 'Roboto',sans-serif;
+        font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.04em;
+            color: var(--accent-color);
+            background-color: var(--background-color);
+            cursor: pointer;
+    }
+    .filtres-button:is(:hover, :focus, :active) {
+        background-color: var(--button-aktive-color);
+        color: var(--title-text-color);
+    }
+    .name-card {
+        font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color: var(--primary-color);
+    }
+    .realm {
+        font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+        color: var(--secondary-text-color);
+    }
+
+
