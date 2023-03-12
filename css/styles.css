@@ -314,6 +314,7 @@ img {
    flex-wrap: wrap;
    column-gap: 24px;
    row-gap: 48px;
+   flex-basis: calc((100% - 48px) / 3);
  }
 
  .about-card {
